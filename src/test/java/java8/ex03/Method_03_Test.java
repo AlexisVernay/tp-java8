@@ -40,7 +40,6 @@ public class Method_03_Test {
         // TODO invoquer la méthode getDefaultInstance() pour que le test soit passant
         IDao result = IDao.getDefaultInstance();
         
-
         assert result.findAll().size() == 20;
     }
 }
